@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>for-I</string>
+	<string>add viewModel.h</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    for (NSInteger i = 0 ; i&lt; &lt;#count#&gt; ; i++) {
-        &lt;#statements#&gt;
-    };</string>
+	<string>@interface &lt;#class#&gt; : NSObject
+
++ (instancetype)viewModelWithArr:(NSArray *)arr;
+- (instancetype)initWithArr:(NSArray *)arr;
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4B06E964-1533-4EB5-BE33-B940A9F1F797</string>
+	<string>814F57E1-A368-42D2-B344-D11945D2BD61</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>for-I</string>
+	<string>add viewModel.h</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

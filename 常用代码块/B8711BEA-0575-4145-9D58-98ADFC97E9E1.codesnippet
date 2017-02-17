@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>for-I</string>
+	<string>typedet-ns_enum</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    for (NSInteger i = 0 ; i&lt; &lt;#count#&gt; ; i++) {
-        &lt;#statements#&gt;
-    };</string>
+	<string>typedef NS_ENUM(NSInteger,&lt;#name#&gt;) {
+    &lt;#firstType#&gt;,
+    &lt;#secondType#&gt;
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4B06E964-1533-4EB5-BE33-B940A9F1F797</string>
+	<string>B8711BEA-0575-4145-9D58-98ADFC97E9E1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>for-I</string>
+	<string>typedet-ns_enum</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

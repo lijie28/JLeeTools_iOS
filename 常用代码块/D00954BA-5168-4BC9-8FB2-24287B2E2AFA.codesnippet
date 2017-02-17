@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>for-I</string>
+	<string>product-annotate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    for (NSInteger i = 0 ; i&lt; &lt;#count#&gt; ; i++) {
-        &lt;#statements#&gt;
-    };</string>
+	<string>//
+//  BaseViewController.m
+//  shopppingMall-framework
+//
+//  Created by 李杰 on 2016/12/15.
+//  Copyright © 2016年 李杰. All rights reserved.
+//</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4B06E964-1533-4EB5-BE33-B940A9F1F797</string>
+	<string>D00954BA-5168-4BC9-8FB2-24287B2E2AFA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>for-I</string>
+	<string>product-annotate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

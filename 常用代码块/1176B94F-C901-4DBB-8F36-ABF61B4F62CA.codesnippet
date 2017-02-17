@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>alter-init</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIAlertController *alertController = [UIAlertController alertControllerWithTitle:&lt;#title#&gt; message:&lt;#message#&gt; preferredStyle:UIAlertControllerStyleAlert];
+    
+[alertController addAction:[UIAlertAction actionWithTitle:&lt;#title#&gt; style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+        NSLog(@"点击确认");
+        
+    }]];
+    
+    [self presentViewController:alertController animated:YES completion:nil];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1176B94F-C901-4DBB-8F36-ABF61B4F62CA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>alter-init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

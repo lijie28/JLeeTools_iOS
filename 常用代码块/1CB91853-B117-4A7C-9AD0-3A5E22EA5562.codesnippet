@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>for-I</string>
+	<string>protocop</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    for (NSInteger i = 0 ; i&lt; &lt;#count#&gt; ; i++) {
-        &lt;#statements#&gt;
-    };</string>
+	<string>//代理
+@protocol &lt;#name#&gt; &lt;NSObject&gt;
+
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4B06E964-1533-4EB5-BE33-B940A9F1F797</string>
+	<string>1CB91853-B117-4A7C-9AD0-3A5E22EA5562</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>for-I</string>
+	<string>protocop</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>for-I</string>
+	<string>setupViewLine</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    for (NSInteger i = 0 ; i&lt; &lt;#count#&gt; ; i++) {
-        &lt;#statements#&gt;
-    };</string>
+	<string>        //分割线
+        UIView *viewLine = [[UIView alloc]initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+        viewLine.backgroundColor = kLineColor;
+        [&lt;#obj#&gt; addSubview:viewLine];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4B06E964-1533-4EB5-BE33-B940A9F1F797</string>
+	<string>D126FCBD-D67C-47E5-8B04-FFB1B25C43CF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>for-I</string>
+	<string>setupViewLine</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

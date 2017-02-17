@@ -2,22 +2,41 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>for-I</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    for (NSInteger i = 0 ; i&lt; &lt;#count#&gt; ; i++) {
-        &lt;#statements#&gt;
-    };</string>
+	<string>@interface &lt;#class#&gt; ()
+
+@property (nonatomic, strong) NSArray *arrDatas;
+
+@end
+
+@implementation &lt;#class#&gt;
++ (instancetype)viewModelWithArr:(NSArray *)arr
+{
+    return [[self alloc]initWithArr:arr];
+}
+
+- (instancetype)initWithArr:(NSArray *)arr
+{
+    _arrDatas = arr;
+    [self dealWithArr:arr];
+    return [super init];
+}
+
+- (void)dealWithArr:(NSArray *)arr
+{
+
+}
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4B06E964-1533-4EB5-BE33-B940A9F1F797</string>
+	<string>054890AF-D8CD-46EA-A371-A13765C4DDE6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>for-I</string>
+	<string>add viewModel.m </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
