@@ -3,26 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>add viewModel.h</string>
+	<string>void-atIndexPath</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#class#&gt; : NSObject
-
-+ (instancetype)viewModelWithInfo:(id)info;
-- (instancetype)initWithInfo:(id)info;
-@end</string>
+	<string>//&lt;#注释#&gt;
+- (void)&lt;#doThat#&gt;AtIndexPath:(NSIndexPath *)indexPath;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>814F57E1-A368-42D2-B344-D11945D2BD61</string>
+	<string>F3914341-AD88-4EEF-BDBF-30029688940C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>add viewModel.h</string>
+	<string>void-atIndexPath</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

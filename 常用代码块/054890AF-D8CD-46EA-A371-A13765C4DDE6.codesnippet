@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>add viewModel.m </string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
@@ -9,27 +11,50 @@
 	<key>IDECodeSnippetContents</key>
 	<string>@interface &lt;#class#&gt; ()
 
-@property (nonatomic, strong) NSArray *arrDatas;
+@property (nonatomic, strong) &lt;#NSObject#&gt; *&lt;#info#&gt;;
 
 @end
 
 @implementation &lt;#class#&gt;
-+ (instancetype)viewModelWithArr:(NSArray *)arr
+
+#pragma mark - Info的处理
+
+- (void)firstDealWithInfo:(id )info
 {
-    return [[self alloc]initWithArr:arr];
+    
 }
 
-- (instancetype)initWithArr:(NSArray *)arr
+
+
+
+
+
+
+#pragma mark - 初始化
+
++ (instancetype)viewModelWithInfo:(id)info
 {
-    _arrDatas = arr;
-    [self dealWithArr:arr];
-    return [super init];
+    return [[self alloc]initWithInfo:info];
 }
 
-- (void)dealWithArr:(NSArray *)arr
+- (instancetype)initWithInfo:(id)info
 {
-
+    _info = info;
+    [self firstDealWithInfo:_info];
+    return [self init];
 }
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
+
+
+
 @end</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>054890AF-D8CD-46EA-A371-A13765C4DDE6</string>
