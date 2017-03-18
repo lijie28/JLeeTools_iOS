@@ -2,21 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>void-atIndexPath</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>StringOrComment</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//&lt;#注释#&gt;
-- (void)&lt;#doThat#&gt;AtIndexPath:(NSIndexPath *)indexPath;</string>
+	<string>¥</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F3914341-AD88-4EEF-BDBF-30029688940C</string>
+	<string>5FD179E0-6201-4A18-8EF7-428AFD98EE71</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>void-atIndexPath</string>
+	<string>人民币符</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

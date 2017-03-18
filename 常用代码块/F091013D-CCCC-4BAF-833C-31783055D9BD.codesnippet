@@ -3,20 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>void-atIndexPath</string>
+	<string>UIImage</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//&lt;#注释#&gt;
-- (void)&lt;#doThat#&gt;AtIndexPath:(NSIndexPath *)indexPath;</string>
+	<string>[UIImage imageNamed:&lt;#name#&gt;]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F3914341-AD88-4EEF-BDBF-30029688940C</string>
+	<string>F091013D-CCCC-4BAF-833C-31783055D9BD</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>void-atIndexPath</string>
+	<string>JLImage</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

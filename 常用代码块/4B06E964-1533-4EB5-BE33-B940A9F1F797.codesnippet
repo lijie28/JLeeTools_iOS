@@ -11,7 +11,8 @@
 	<key>IDECodeSnippetContents</key>
 	<string>    for (NSInteger i = 0 ; i&lt; &lt;#count#&gt; ; i++) {
         &lt;#statements#&gt;
-    };</string>
+    }
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4B06E964-1533-4EB5-BE33-B940A9F1F797</string>
 	<key>IDECodeSnippetLanguage</key>

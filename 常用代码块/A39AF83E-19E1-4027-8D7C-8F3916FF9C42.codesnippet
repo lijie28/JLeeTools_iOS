@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>void-atIndexPath</string>
+	<string>setup-parameters</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//&lt;#注释#&gt;
-- (void)&lt;#doThat#&gt;AtIndexPath:(NSIndexPath *)indexPath;</string>
+	<string>    NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
+    [parameters setObject:&lt;#obj#&gt; forKey:@"&lt;#key#&gt;"];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F3914341-AD88-4EEF-BDBF-30029688940C</string>
+	<string>A39AF83E-19E1-4027-8D7C-8F3916FF9C42</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>void-atIndexPath</string>
+	<string>setup-parameters</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
