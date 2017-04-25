@@ -40,22 +40,28 @@
 {
     return 0.1;
 }
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *cellIdentify =  @"cellIdentify";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentify];
-    if (!cell)
-    {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentify];
-    }
+    //    static NSString *cellIdentify =  cellIdentify;
+    AddressManageTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentify];
+    
     //取消点击cell的效果
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    
-    
+    [self configureCell:cell atIndexPath:indexPath];
     
     return cell;
-}</string>
+}
+
+
+- (void)configureCell:(id)cell atIndexPath:(NSIndexPath *)indexPath
+{
+    if (!cell)
+    {
+        cell = [[AddressManageTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentify];
+    }
+    [cell loadModel:_datasource[indexPath.row] atIndexPath:indexPath];
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8C39EAFF-8E6B-4EC2-894F-989153E3508C</string>
 	<key>IDECodeSnippetLanguage</key>

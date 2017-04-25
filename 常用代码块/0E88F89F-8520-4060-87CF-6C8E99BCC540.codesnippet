@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>setup-collectionView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//创建collectionView
+- (void)setupCollectionView
+{
+    //创建一个layout布局类
+    UICollectionViewFlowLayout * layout = [[UICollectionViewFlowLayout alloc]init];
+    //设置布局方向为垂直流布局
+    layout.scrollDirection = UICollectionViewScrollDirectionVertical;
+    //设置每个item的大小为100*100
+    layout.itemSize = CGSizeMake(kWidth(370), kHeight(505));
+    
+    layout.minimumLineSpacing = kWidth(10);
+    layout.minimumInteritemSpacing = kHeight(5);
+    
+//    layout.sectionInset = UIEdgeInsetsMake(0 , 0,  kHeight(5) , kWidth(5));
+    
+    _collectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, afterY(_headView),kScreenWidth, kScreenHeight -frameH(_headView) -64) collectionViewLayout:layout];
+    _collectionView.backgroundColor = [UIColor clearColor];
+    _collectionView.delegate = self;
+    _collectionView.dataSource = self;
+    //注册item类型
+    [_collectionView registerClass:[GoodsListCollectionViewCell class] forCellWithReuseIdentifier:@"collection"];
+
+    
+    _collectionView.backgroundColor = kBackGroundColor;
+    [self.view addSubview:_collectionView];
+    
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0E88F89F-8520-4060-87CF-6C8E99BCC540</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>setup-collectionView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

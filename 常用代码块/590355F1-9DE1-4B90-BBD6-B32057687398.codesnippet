@@ -10,6 +10,9 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>//创建tableView
+
+static NSString *const cellIdentify = @"cellIdentify";
+
 - (void)setupTableView
 {
         /**
